@@ -9,7 +9,7 @@
   <meta name="author" content="Fabio Kuhn">
 
   
-  <meta name="description" content="Blog Archive Recent Posts GitHub Repos Status updating... @mordaroso on GitHub $.domReady(function(){ if (!window.jXHR){ var jxhr = document. &hellip;">
+  <meta name="description" content=" Blog Archive Recent Posts Latest Tweets Status updating... $.domReady(function(){ getTwitterFeed("mordaroso", 4, false); }); Follow @mordaroso ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -89,36 +89,6 @@
 </section>
 
 <section>
-  <h1>GitHub Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating...</li>
-  </ul>
-  
-  <a href="https://github.com/mordaroso">@mordaroso</a> on GitHub
-  
-  <script type="text/javascript">
-    $.domReady(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'mordaroso',
-            count: 0,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
-
-
-<section>
   <h1>Latest Tweets</h1>
   <ul id="tweets">
     <li class="loading">Status updating...</li>
@@ -133,9 +103,6 @@
     <a href="http://twitter.com/mordaroso" class="twitter-follow-button" data-show-count="false">Follow @mordaroso</a>
   
 </section>
-
-
-
 
 
   
