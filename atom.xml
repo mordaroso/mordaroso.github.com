@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[whiny stuff]]></title>
+  <link href="http://fabiokuhn.com/atom.xml" rel="self"/>
+  <link href="http://fabiokuhn.com/"/>
+  <updated>2012-06-05T16:17:33+02:00</updated>
+  <id>http://fabiokuhn.com/</id>
+  <author>
+    <name><![CDATA[Fabio Kuhn]]></name>
+    <email><![CDATA[mordaroso@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
