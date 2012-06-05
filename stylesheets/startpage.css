@@ -130,13 +130,6 @@ li {
   z-index: 4;
 }
 
-#hireme{
-  position:absolute;
-  right:16px;
-  top:105px;
-  z-index:3;
-}
-
 h2{
   background:transparent url(/images/startpage/heading.png) no-repeat scroll 0 0;
   font-size:18px;

@@ -9,9 +9,22 @@
 
     <link rel="stylesheet" type="text/css" href="stylesheets/startpage.css" />
 
-    <script type="text/javascript" src="javascripts/lib/jquery-1.3.2.min.js"></script>
-    <script type="text/javascript" src="javascripts/lib/jquery.no_spam.min.js"></script>
+    <script type="text/javascript" src="javascripts/libs/jquery-1.3.2.min.js"></script>
+    <script type="text/javascript" src="javascripts/libs/jquery.no_spam.min.js"></script>
     <script type="text/javascript" src="javascripts/startpage.js"></script>
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-32411783-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
   </head>
 
   <body>
@@ -21,7 +34,7 @@
         <h2>about</h2>
         <ul>
           <li>
-            I'm a 24 year old <span class="title">web-developer</span> living in
+            I'm a 25 year old <span class="title">web-developer</span> living in
             <span class="adr"><span class="city">Basel</span>, <span class="country-name">Switzerland</span></span>.
           </li>
           <li>I co-founded <span class="org"><a href='http://whinybyte.com'>whiny byte GmbH</a></span> with two friends.</li>
@@ -37,7 +50,6 @@
         <a href='http://flickr.com/photos/mordaroso' class='icon flickr'>flickr</a>
         <a href='http://vimeo.com/mordaroso' class='icon vimeo'>vimeo</a>
         <a href='http://last.fm/user/mordaroso' class='icon lastfm'>last.fm</a>
-        <!-- <img id='hireme' src='images/hireme.png' alt='for hire'/> -->
         <img id='me' src='../images/startpage/me.png' alt="that's me"/>
         <img id='arrow' src='../images/startpage/arrow.png' alt="arrow pointing to my picture"/>
       </div>
@@ -45,17 +57,5 @@
       <div id='footer'>web-enthusiast ~ mac and linux user ~ developer</div>
       <img id='portrait' src='../images/startpage/fabiokuhn.png' alt='fabio kuhn'/>
     </div>
-    <!-- Piwik -->
-    <script type="text/javascript">
-    var pkBaseURL = (("https:" == document.location.protocol) ? "https://stats.floatingbill.com/" : "http://stats.floatingbill.com/");
-    document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-    </script><script type="text/javascript">
-    try {
-    var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 3);
-    piwikTracker.trackPageView();
-    piwikTracker.enableLinkTracking();
-    } catch( err ) {}
-    </script><noscript><p><img src="http://stats.floatingbill.com/piwik.php?idsite=3" style="border:0" alt=""/></p></noscript>
-    <!-- End Piwik Tag -->
   </body>
 </html>
