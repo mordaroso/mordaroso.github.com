@@ -1,0 +1,243 @@
+---
+title: Portfolio
+skills:
+  -
+    name: Languages
+    list:
+      -
+        name: Ruby
+        level: 100
+        active: true
+        tip: Used on almost every occation.<br>I inform myself almost daily.
+      -
+        name: Javascript
+        level: 90
+        active: true
+        tip: Used heavily.<br/>Plain, jQuery, MVCs, node.js. etc
+      -
+        name: HTML/CSS
+        level: 90
+        active: true
+        tip: Used heavily.<br/>Praise Tim Berners-Lee, science and CERN
+      -
+        name: Shell
+        level: 30
+        active: true
+        tip: Used for some scripts on local machine and servers.<br/>Not too deep in the rabit hole.
+      -
+        name: Elixir
+        level: 20
+        active: true
+        tip: Some mind blows...<br/>Still to learn a lot.
+      -
+        name: Java
+        level: 50
+        active: false
+        tip: Used heavily during my studies.<br/>Before falling in love with Ruby.
+      -
+        name: QBasic
+        level: 30
+        active: false
+        tip: Used in older days.<br/>A good piece of history.
+      -
+        name: ABAP
+        level: 20
+        active: false
+        tip: Used professionally.<br/>Might be able to read some legacy code.
+      -
+        name: C#
+        level: 10
+        active: false
+        tip: Used for an opensource project addon.<br/>Might be able to read some code.
+      -
+        name: VisualBasic
+        level: 10
+        active: false
+        tip: Used in older days.<br/>Might still be able to get the gist.
+
+  -
+    name: Frameworks / Libraries
+    list:
+      -
+        name: Ruby on Rails
+        level: 100
+        active: true
+      -
+        name: SCSS/HAML
+        level: 100
+        active: true
+      -
+        name: Capibara
+        level: 80
+        active: true
+      -
+        name: RubyMotion
+        level: 60
+        active: true
+
+  -
+    name: Server Management
+    list:
+      -
+        name: Unix
+        level: 60
+        active: true
+      -
+        name: Shell scripting
+        level: 40
+        active: true
+      -
+        name: Virtualization
+        level: 40
+        active: true
+      -
+        name: Puppet
+        level: 50
+        active: true
+      -
+        name: Chef
+        level: 30
+
+  -
+    name: Process
+    list:
+      -
+        name: TDD/BDD
+        level: 100
+        active: true
+      -
+        name: Kanban
+        level: 80
+        active: true
+      -
+        name: SCRUM
+        level: 70
+      -
+        name: Pomodoro
+        level: 70
+  -
+    name: Other skills
+    list:
+      -
+        name: Snowboarding
+        level: 100
+        active: true
+      -
+        name: German
+        level: 100
+        active: true
+      -
+        name: Climbing
+        level: 100
+        active: true
+      -
+        name: English
+        level: 100
+        active: true
+      -
+        name: Skiing
+        level: 80
+        active: true
+      -
+        name: Permaculture
+        level: 60
+        active: true
+      -
+        name: Spanish
+        level: 40
+        active: true
+      -
+        name: French
+        level: 30
+---
+<div class="row">
+  <div class="large-12 columns text-center">
+    <h3 class="subheader">Passionate full stack software developer with a wide range of professional experiences and skills.
+    </br>Currently available for hire! Feel free to <a href="mailto://me@fabiokuhn.com">contact me</a>.</h3>
+  </div>
+</div>
+<div class="row">
+  <h2>Skills</h2>
+  <p>It's hard to list all the skills and things I do or did. Therefore consider this not as the full list. I selected some of the more important and interesting skills with a personal story<br/>
+  I learn and hack on whatever is interesting to me or is necessery to solve a problem.
+</p>
+  {% for group in page.skills %}
+  <div class="large-4 columns">
+    <h3>{{ group.name }}</h3>
+    <ul class="skills">
+      {% for skill in group.list %}
+      <li {% if skill.tip %} data-tooltip class="has-tip" title="{{ skill.tip }}<br/>Level: {{ skill.level }}{% unless skill.active %}<br/>State: Inactive{% endunless %}" {% endif %}>
+        <span class="left large-8 small-8">{{ skill.name }}</span>
+        <div class="progress large-4 small-4 right {% if skill.active %} success {% endif %} radius"> <span class="meter" style="width: {{ skill.level }}%"></span> </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="row">
+  <div class="large-12 columns">
+    <h2>Work</h2>
+    <p>
+      In over 14 years of programming I worked on a lot of projects. Here are some selected professional and side projects that in my opinion are the ones that influenced me the most.
+    </p>
+    <div class="row">
+      <h3>Streetfightz</h3>
+      <div class="large-4 columns">
+        Images
+      </div>
+      <div class="large-8 columns">
+        <p>Streetfightz was a MMORPG (Massively multiplayer online role-playing game) fors the browser that I started as side project with two friends during my studies. The story was simple but addictive; You are located in a city and have to look for other players to fight them. After the fight your skills get improved, you earn monay and can buy or improve your house.</p>
+        <h5>My part</h5>
+        <ul>
+          <li>Project Management</li>
+          <li>Invent story/algorithms</li>
+          <li>Maintain community</li>
+          <li>Build and extend PHP backend</li>
+          <li>Write frontend javascript code</li>
+        </ul>
+        <h5>What I learned</h5>
+        <p>
+          This was my first big project and altough I had experiences in programming I had none in project management and working with colleges. I learned a lot about communication, what it needs to organize work of individuals.
+          Also on the programming side was this project a big challange for me. I never worked with such a complex system and large codebase. I wrote my own MVC without knowing about that pattern in the first place, refactered a lot and tried to automate testing.
+          <br/>Altough we, or better I, failed in various points I learned a lot about what Software Development really is.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="large-12 columns">
+    <h2>Generous words</h2>
+    <p>
+      Over the years I met a lot of great people. With some I had the chance to share my work, get inspired by thiers, have good discussions and experiances.
+      <br/>
+      Here are some of them and what they say about me:
+    </p>
+    <blockquote>
+      A great mind
+      <cite><a title="Lukas Eppler" href="http://simplificator.com">Lukas Eppler (CEO at Simplificator)</a></cite>
+    </blockquote>
+
+    <blockquote>
+      One of the best Ruby programmers I've met
+      <cite><a title="Jeremy Seitz" href="https://twitter.com/foz">Jeremy Seitz (Lead of web engeneering at local.ch)</a></cite>
+    </blockquote>
+
+    <blockquote>
+      All of this blew me away. Like this "@mordaroso" fellow strolled on up,
+      cocked his knee skyward, and jettisoned his leg into the rickety wooden door that
+      previously sheltered my mind.
+      <cite><a title="How A Pull Request Rocked My World" href="http://clayallsopp.com/posts/the-story-of-pull-request/">Clay Allsopp (RubyMotion Guru)</a></cite>
+    </blockquote>
+  </div>
+</div>
+<div class="row">
+  <div class="large-12 columns">
+    <div class="panel text-center">
+      <h3>I'm currently available for hire! Feel free to <a href="mailto://me@fabiokuhn.com">contact me</a>.</h3>
+    </div>
+  </div>
+</div>

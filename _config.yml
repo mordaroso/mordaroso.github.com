@@ -1,0 +1,44 @@
+sass:
+  style: :compressed
+  sass_dir: css/_scss
+
+exclude: [Gemfile, Gemfile.lock, Guardfile]
+safe: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "page"
+    values:
+      layout: "pages"
+      footer:
+        links:
+          contact:
+            -
+              name: "E-Mail"
+              url: "mailto://me@fabiokuhn.com"
+            -
+              name: "Twitter"
+              url: "https://twitter.com/mordaroso"
+              blank: true
+            -
+              name: "Facebook"
+              url: "https://facebook.com/fkuhn"
+              blank: true
+          other:
+            -
+              name: "Hire me"
+              url: "/hire"
+            -
+              name: "My full CV"
+              url: "/cv"
+          more:
+            -
+              name: "my github profile"
+              url: "https://github.com/mordaroso"
+              blank: true
+            -
+              name: "what ♫ I listen to"
+              url: "https://last.fm/user/mordaroso"
+              blank: true

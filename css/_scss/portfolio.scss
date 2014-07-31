@@ -1,0 +1,43 @@
+body {
+  font-family: 'Sanchez', serif;
+}
+
+h1 {
+  font-family: 'Lobster Two', cursive;
+}
+
+h2, h3, h4 {
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  padding: 10px;
+
+  h1 {
+    margin-bottom: 0;
+  }
+
+  h5 {
+    color: #666;
+  }
+}
+
+footer.row {
+  max-width: 100%;
+}
+
+.footer {
+  margin-bottom: 0;
+  border-width: 3px 0 0 0;
+  border-color: #aaa;
+  background-color: #333;
+  h5, p {
+    color: #aaa;
+  }
+}
+
+.skills {
+  .progress {
+    margin-bottom: 0;
+  }
+}
