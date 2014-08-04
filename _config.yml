@@ -1,3 +1,4 @@
+destination: public
 sass:
   style: :compressed
   sass_dir: css/_scss
@@ -31,8 +32,8 @@ defaults:
               name: "Hire me"
               url: "/hire"
             -
-              name: "My full CV"
-              url: "/cv"
+              name: "My CV"
+              url: "/"
           more:
             -
               name: "my github profile"
