@@ -40,6 +40,14 @@ defaults:
               url: "https://github.com/mordaroso"
               blank: true
             -
+              name: "my tweets"
+              url: "https://twitter.com/mordaroso"
+              blank: true
+            -
+              name: "my LinkedIn profile"
+              url: "http://ch.linkedin.com/pub/fabio-kuhn/a2/173/647/"
+              blank: true
+            -
               name: "what ♫ I listen to"
               url: "https://last.fm/user/mordaroso"
               blank: true
