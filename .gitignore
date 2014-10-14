@@ -3,3 +3,4 @@ passenger.*
 .sass-cache
 bin
 .bundle
+.DS_Store
