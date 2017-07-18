@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/mordaroso
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://fabiokuhn.com
+  * I am mordaroso (https://keybase.io/mordaroso) on keybase.
+  * I have a public key ASBzXZaARyL9e68Qutav6jEMxBpbdedVAn9em0fE9B2Rxwo
+
+To do so, I am signing this object:
+
+{
+    &quot;body&quot;: {
+        &quot;key&quot;: {
+            &quot;eldest_kid&quot;: &quot;0101257b1b3ffc69982de787c578ee0c886b740c686ea56b5656a15eee865bd4aae20a&quot;,
+            &quot;host&quot;: &quot;keybase.io&quot;,
+            &quot;kid&quot;: &quot;0120735d96804722fd7baf10bad6afea310cc41a5b75e755027f5e9b47c4f41d91c70a&quot;,
+            &quot;uid&quot;: &quot;c66f1f212d04b121dd8195f3f2f30d19&quot;,
+            &quot;username&quot;: &quot;mordaroso&quot;
+        },
+        &quot;merkle_root&quot;: {
+            &quot;ctime&quot;: 1500392793,
+            &quot;hash&quot;: &quot;5cc62a0f2667c105927124df778c4224eea51f4670de0eca80df23f9390875d0c9c1a2bc67c354db3189b1df5da37e8396e06387ac6e671a046288f1b3467e29&quot;,
+            &quot;hash_meta&quot;: &quot;25aaf1462fc8d5edcde24f2e870997f968992d648e21ea9326da44d72672e445&quot;,
+            &quot;seqno&quot;: 1258503
+        },
+        &quot;service&quot;: {
+            &quot;hostname&quot;: &quot;fabiokuhn.com&quot;,
+            &quot;protocol&quot;: &quot;http:&quot;
+        },
+        &quot;type&quot;: &quot;web_service_binding&quot;,
+        &quot;version&quot;: 1
+    },
+    &quot;client&quot;: {
+        &quot;name&quot;: &quot;keybase.io go client&quot;,
+        &quot;version&quot;: &quot;1.0.25&quot;
+    },
+    &quot;ctime&quot;: 1500392812,
+    &quot;expire_in&quot;: 504576000,
+    &quot;prev&quot;: &quot;9384d4dd1a2daf79e4b3e752ede0379542d4389b47e3d06beb63e763af7702c6&quot;,
+    &quot;seqno&quot;: 9,
+    &quot;tag&quot;: &quot;signature&quot;
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgc12WgEci/XuvELrWr+oxDMQaW3XnVQJ/XptHxPQdkccKp3BheWxvYWTFA0V7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxMjU3YjFiM2ZmYzY5OTgyZGU3ODdjNTc4ZWUwYzg4NmI3NDBjNjg2ZWE1NmI1NjU2YTE1ZWVlODY1YmQ0YWFlMjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNzM1ZDk2ODA0NzIyZmQ3YmFmMTBiYWQ2YWZlYTMxMGNjNDFhNWI3NWU3NTUwMjdmNWU5YjQ3YzRmNDFkOTFjNzBhIiwidWlkIjoiYzY2ZjFmMjEyZDA0YjEyMWRkODE5NWYzZjJmMzBkMTkiLCJ1c2VybmFtZSI6Im1vcmRhcm9zbyJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUwMDM5Mjc5MywiaGFzaCI6IjVjYzYyYTBmMjY2N2MxMDU5MjcxMjRkZjc3OGM0MjI0ZWVhNTFmNDY3MGRlMGVjYTgwZGYyM2Y5MzkwODc1ZDBjOWMxYTJiYzY3YzM1NGRiMzE4OWIxZGY1ZGEzN2U4Mzk2ZTA2Mzg3YWM2ZTY3MWEwNDYyODhmMWIzNDY3ZTI5IiwiaGFzaF9tZXRhIjoiMjVhYWYxNDYyZmM4ZDVlZGNkZTI0ZjJlODcwOTk3Zjk2ODk5MmQ2NDhlMjFlYTkzMjZkYTQ0ZDcyNjcyZTQ0NSIsInNlcW5vIjoxMjU4NTAzfSwic2VydmljZSI6eyJob3N0bmFtZSI6ImZhYmlva3Vobi5jb20iLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjI1In0sImN0aW1lIjoxNTAwMzkyODEyLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6IjkzODRkNGRkMWEyZGFmNzllNGIzZTc1MmVkZTAzNzk1NDJkNDM4OWI0N2UzZDA2YmViNjNlNzYzYWY3NzAyYzYiLCJzZXFubyI6OSwidGFnIjoic2lnbmF0dXJlIn2jc2lnxECuYn9Hcb8S3elcGG+o2STSVSi5MP0WaoeMrjINoC8sxNRMUi/wsJfgyrQkGZafPzl3SkDnYr6mctTRnbOGDKAIqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQg25+bjX1x6bVWIWYGxJLT/VUGilg8AKA1whUfdDQbpWqjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mordaroso
+
+==================================================================
